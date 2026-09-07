@@ -1,14 +1,27 @@
-# IBM Automation 설치 가이드
+# IBM Automation Guides
 
-IBM Automation 제품별 설치 문서를 관리하는 저장소입니다. 제품별 문서는 독립 애플리케이션이 아니므로 한 저장소에서 함께 관리합니다.
+[한국어](README.md) · [English](README.en.md)
 
-## 문서 목록
+## 목적
 
-- [Instana installation guide](./Instana%20installation%20guide.md)
-- [IBM Concert installation guide](./IBM%20Concert%20installation%20guide.md)
-- [Kubecost installation guide](./Kubecost%20installation%20guide.md)
-- [Turbonomic installation guide](./Turbonomic%20installation%20guide.md)
+IBM Automation 제품의 설치 준비, 구성과 검증 절차를 참고하는 기술 문서 모음입니다.
 
-## 브랜치 관리
+## 기대 효과
 
-`main`이 문서의 기준입니다. 기존 `codex/*` 브랜치는 문서 작성 이력으로 보존하며 별도 프로젝트로 취급하지 않습니다. `codex/add-installation-document-for-ibm-concert-60h96l`은 정리 전 `main`과 파일 내용이 동일했습니다.
+- 설치 전 확인할 항목을 빠뜨리지 않도록 돕습니다.
+- 환경별 작업 순서와 검증 기준을 준비할 때 참고할 수 있습니다.
+
+## 주요 기능과 구성
+
+- [IBM Concert installation guide](IBM%20Concert%20installation%20guide.md)
+- [Instana installation guide](Instana%20installation%20guide.md)
+- [Kubecost installation guide](Kubecost%20installation%20guide.md)
+- [Turbonomic installation guide](Turbonomic%20installation%20guide.md)
+
+## 시작하기
+
+필요한 문서를 선택한 뒤 제품 버전, OS, 권한, 네트워크와 라이선스 조건부터 확인하세요. 예제 명령의 주소·경로·입력값을 본인 환경에 맞게 바꾸고, 테스트 환경에서 검토 후 실행합니다.
+
+## 범위와 제약사항
+
+문서 중심 저장소이며 자동 설치나 현재 서비스 상태를 보증하지 않습니다. 제품 버전에 따라 절차가 달라질 수 있습니다.
